@@ -22,6 +22,7 @@ max-width: 2000px;
     text-align: center;
     border-radius: 5px;
     height: 500px;
+min-width: fit-content;
 }
 
 .form-header {
@@ -38,6 +39,7 @@ max-width: 2000px;
     margin-top: 250px;
     margin-left: 300px;
     color: #fff;
+display: none;
 }
 
 h1 {
@@ -93,6 +95,7 @@ outline: none;
     font-size: 10px;
     font-weight: lighter;
     opacity: 0.5;
+padding-top: 25px;
 }
 
 .psw {
