@@ -1,6 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-image:linear-gradient(to right, indigo, purple);
+    background-image: url('photos/login.jpg');
+    background-position: center;
+    width: 100%;
+    height: auto;
 }
 
 .form-details {
