@@ -20,10 +20,10 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
        // Router setup
        self.router = Router.rootInstance;
        self.router.configure({
-         'signup': {label: 'Sign up', isDefault: true},
-         'signin': {label: 'Sign In', },
+         'register': {label: 'Sign up', isDefault: true},
+         'login': {label: 'Log In', },
          'dashboard': {label: 'Dashboard', },
-         'index': {label: 'index', },
+        
          
        });
       Router.defaults['urlAdapter'] = new Router.urlParamAdapter();

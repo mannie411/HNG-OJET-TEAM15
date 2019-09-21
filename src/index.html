@@ -29,8 +29,15 @@
     <title>HNG</title>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
     <link rel="icon" href="css/images/favicon.ico" type="image/x-icon" />
+
+    <!-- This is where you would add any app specific styling -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/app.css" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
   
     <!-- This is the main css file for the default Alta theme -->
     <!-- injector:theme -->
@@ -40,30 +47,15 @@
     <!-- This contains icon fonts used by the starter template -->
     <link rel="stylesheet" href="css/demo-alta-site-min.css" type="text/css"/>
 
-    <!-- This is where you would add any app specific styling -->
-    <link rel="stylesheet" href="css/app.css" type="text/css"/>
-    <link rel="stylesheet" href="css/mystyle.css" type="text/css"/>
-    <link rel="stylesheet" href="css/login.css">
+    
+    
 
   </head>
-  <body id="globalBody" class="oj-web-applayout-body">
-    <!-- <div id='buttons-container'>
-      <oj-bind-for-each data="[[router.states]]">
-        <template> -->
-          <!-- Use the go function of the state as the handler for a click binding -->
-          <!-- <oj-button :id="[[$current.data.id]]" on-oj-action="[[go]]"> -->
-            <!-- <oj-bind-text value="[[$current.data.label]]"></oj-bind-text> -->
-          <!-- </oj-button>
-        </template>
-      </oj-bind-for-each> -->
-    </div>
-    <div class="oj-web-applayout-content oj-web-applayout-max-width">
-      <div class="oj-flex oj-flex-items-pad">
-        <div class="oj-flex-item">
-          <oj-module role="main" style="padding-bottom:
-        30px" config="[[moduleConfig]]"></oj-module>
-        </div>
-      </div>
+  <body id="globalBody" >
+
+   
+    <div>
+        <oj-module role="main" config="[[moduleConfig]]"></oj-module>
     </div>
 
     <script type="text/javascript" src="js/libs/require/require.js"></script>

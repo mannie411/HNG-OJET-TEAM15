@@ -5,3 +5,87 @@
     Description:
         This is where any of your application specific styles should be included
 */
+body {
+    /* Location of the image */
+    background-image: url(images/login.jpg);
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+  }
+
+#globalBody{
+
+    /* IMAGE HOSTED ON CLOUDINARY */
+    /* background-image:url( 'images/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background: blueviolet;
+   
+
+}
+
+.f-height{
+    height: 100vh
+}
+.card-p{
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 6px -6px #000;
+}
+
+.welcome{
+    margin: 100px 100px 0 100px;
+
+}
+.btn-btn{
+    margin-left: 300px
+}
+.login{
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.size{
+    margin:0 200px 0 200px;
+}
+.reg{
+    margin-bottom:10px;
+    margin-left: 250px;
+    margin-right: 250px
+}
+.bq{
+    margin: 0 0 200px 50px
+}
+blockquote{
+    color: white;
+}
+.hng {
+    text-align: center;
+    color: white;
+}
+#ojet {
+    color: white;
+    text-align: center
+}
+
+@media all and (max-width: 699px) { /* max-width would be the breakpoint for when this style kicks in */
+    body {
+      background-size: cover; /* stretches to size of viewport */
+      background-position: center; /* center the bg image */
+    }
+  }
